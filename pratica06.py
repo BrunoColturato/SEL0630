@@ -1,5 +1,7 @@
+from picamera import PiCamera, Color
 from time import sleep
 from requests import get
+import json
 from pprint import pprint
 
 # Obtendo dados do clima
@@ -29,4 +31,16 @@ camera.annotate_text = f"Bruno 11200251 Alessandro 11233891 \nTemperatura: {temp
 camera.start_preview()
 sleep(5)
 camera.capture('/home/sel/workab/bruno_alessandrox.jpg')
+camera.stop_preview()
+
+# Gravando video
+# Modificando a anotacao
+camera.annotate_background = None
+camera.annotate_text = "Bruno 11200251 Alessandro 11233891"
+
+# Realizando gravacao
+camera.start_preview()
+camera.start_recording('/home/sel/workab/videox.h264')
+sleep(5)
+camera.stop_recording()
 camera.stop_preview()
