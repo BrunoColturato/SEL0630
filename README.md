@@ -100,7 +100,9 @@ A imagem e o vídeo obtidos com o código são apresentados abaixo.
 
 ![bruno_alessandro](https://github.com/BrunoColturato/SEL0630/blob/main/photos/bruno_alessandro.jpg)
 
-[![Watch the video](https://github.com/BrunoColturato/SEL0630/blob/main/photos/bruno_alessandro.jpg)](https://github.com/BrunoColturato/SEL0630/blob/main/videos/video.mp4)
+https://user-images.githubusercontent.com/50089456/204675016-127276d2-b1f3-44bc-aac8-afa31d650ec3.mp4
+
+
 
 
 
